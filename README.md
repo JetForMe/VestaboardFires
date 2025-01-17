@@ -9,3 +9,7 @@ from Cal Fire, gets the details, and then displays their status on the board.
 In order to make the board a little more interesting, it displays the last-updated
 time in relative format, so that the board changes more often.
 
+It pulls the last updated time from the most-recently updated fire (the API
+leaves a lot to be desired).
+
+This code is very gross. I just wanted to get it going quickly.
