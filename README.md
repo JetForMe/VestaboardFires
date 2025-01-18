@@ -14,3 +14,9 @@ It pulls the last updated time from the most-recently updated fire (the API
 leaves a lot to be desired).
 
 This code is very gross. I just wanted to get it going quickly.
+
+## Building
+
+You need a Swift 6+ compiler installed. I’ve only built this on macOS, ymmv.
+Clone or download the repo. cd to the directory, type `swift run`. Or open
+`Package.swift` with Xcode, and run it from there.
